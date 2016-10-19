@@ -1,0 +1,4 @@
+Sitemap: https://fanjunwei.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: fanjunwei.github.io
