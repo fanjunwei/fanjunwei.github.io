@@ -148,6 +148,29 @@ $rvictl -x &lt;UDID&gt;
 </ol>
 </div>
     </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/wei-mac-terminal-she-zhi-dai-li/" class="u-url">为 Mac Terminal 设置代理</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                <a href="authors/fan-jun-wei/">范俊伟</a>
+            </span></p>
+            <p class="dateline"><a href="posts/wei-mac-terminal-she-zhi-dai-li/" rel="bookmark"><time class="published dt-published" datetime="2015-05-27T10:54:00+08:00" title="2015-05-27 10:54">2015-05-27 10:54</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>使用brew安装软件时,brew并不走系统设置的代理,下面介绍一种方法</p>
+<p>Install &amp; Config:</p>
+<pre class="literal-block">
+step1. brew install proxychains-ng
+step2. modify config file(/usr/local/Cellar/proxychains-ng/4.7/etc/proxychains.conf), add or modify: socks5 127.0.0.1 23333
+PS: use your own local port to replace 23333
+</pre>
+<p>Usage:</p>
+<pre class="literal-block">
+proxychains4 ping facebook.com
+proxychains4 -q pip install shadowsocks
+</pre>
+</div>
+    </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/welcome-to-nikola/" class="u-url">Welcome to Nikola</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">

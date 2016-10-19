@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>https://fanjunwei.github.io/archive.html</loc>
-  <lastmod>2016-10-19T09:33:00Z</lastmod>
+  <lastmod>2016-10-19T09:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/authors/</loc>
@@ -39,7 +39,7 @@
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/</loc>
-  <lastmod>2016-10-19T09:35:00Z</lastmod>
+  <lastmod>2016-10-19T09:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/blog/</loc>
@@ -58,12 +58,20 @@
   <lastmod>2016-10-19T09:13:00Z</lastmod>
  </url>
  <url>
+  <loc>https://fanjunwei.github.io/categories/dai-li/</loc>
+  <lastmod>2016-10-19T09:42:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://fanjunwei.github.io/categories/demo/</loc>
   <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/ios/</loc>
   <lastmod>2016-10-19T09:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fanjunwei.github.io/categories/mac/</loc>
+  <lastmod>2016-10-19T09:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/nikola/</loc>
@@ -168,6 +176,10 @@
  <url>
   <loc>https://fanjunwei.github.io/posts/hello/</loc>
   <lastmod>2016-10-19T09:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fanjunwei.github.io/posts/wei-mac-terminal-she-zhi-dai-li/</loc>
+  <lastmod>2016-10-19T09:40:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/posts/welcome-to-nikola/</loc>
