@@ -7,11 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://fanjunwei.github.io/</loc>
-  <lastmod>2016-10-19T09:06:00Z</lastmod>
+  <lastmod>2016-10-19T09:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/2012/</loc>
   <lastmod>2016-10-19T09:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fanjunwei.github.io/2015/</loc>
+  <lastmod>2016-10-19T09:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/2016/</loc>
@@ -19,7 +23,7 @@
  </url>
  <url>
   <loc>https://fanjunwei.github.io/archive.html</loc>
-  <lastmod>2016-10-19T09:06:00Z</lastmod>
+  <lastmod>2016-10-19T09:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/authors/</loc>
@@ -35,7 +39,7 @@
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/</loc>
-  <lastmod>2016-10-19T09:13:00Z</lastmod>
+  <lastmod>2016-10-19T09:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/blog/</loc>
@@ -58,6 +62,10 @@
   <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
+  <loc>https://fanjunwei.github.io/categories/ios/</loc>
+  <lastmod>2016-10-19T09:35:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://fanjunwei.github.io/categories/nikola/</loc>
   <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
@@ -68,6 +76,10 @@
  <url>
   <loc>https://fanjunwei.github.io/categories/rabbitmq/</loc>
   <lastmod>2016-10-19T09:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fanjunwei.github.io/categories/zhua-bao/</loc>
+  <lastmod>2016-10-19T09:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/galleries/</loc>
@@ -160,5 +172,9 @@
  <url>
   <loc>https://fanjunwei.github.io/posts/welcome-to-nikola/</loc>
   <lastmod>2016-10-19T09:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fanjunwei.github.io/posts/zhua-qu-iphonezhen-ji-feng-bao-de-fang-fa/</loc>
+  <lastmod>2016-10-19T09:29:00Z</lastmod>
  </url>
 </urlset>

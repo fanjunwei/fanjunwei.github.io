@@ -64,7 +64,7 @@
             <p class="byline author vcard"><span class="byline-name fn">
                 <a href="authors/fan-jun-wei/">范俊伟</a>
             </span></p>
-            <p class="dateline"><a href="posts/centos7-an-zhuang-rabbitmq-qi-dong-cuo-wu/" rel="bookmark"><time class="published dt-published" datetime="2016-10-19T17:11:53+08:00" title="2016-10-19 17:11">2016-10-19 17:11</time></a></p>
+            <p class="dateline"><a href="posts/centos7-an-zhuang-rabbitmq-qi-dong-cuo-wu/" rel="bookmark"><time class="published dt-published" datetime="2016-08-28T15:54:00+08:00" title="2016-08-28 15:54">2016-08-28 15:54</time></a></p>
         </div>
     </header><div class="e-content entry-content">
     <div>
@@ -99,6 +99,53 @@ Main PID: 17777 (code=exited, status=1/FAILURE)
 <p>查看使用hostname命令</p>
 <p>修改使用 hostnamectl set-hostname NAME</p>
 </div>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/zhua-qu-iphonezhen-ji-feng-bao-de-fang-fa/" class="u-url">抓取iPhone真机封包的方法</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                <a href="authors/fan-jun-wei/">范俊伟</a>
+            </span></p>
+            <p class="dateline"><a href="posts/zhua-qu-iphonezhen-ji-feng-bao-de-fang-fa/" rel="bookmark"><time class="published dt-published" datetime="2015-10-04T22:55:00+08:00" title="2015-10-04 22:55">2015-10-04 22:55</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>iOS 5后，apple引入了RVI remote virtual interface的特性，它只需要将iOS设备使用USB数据线连接到mac上，然后使用rvictl工具以iOS设备的UDID为参数在Mac中建立一个虚拟网络接口rvi，就可以在mac设备上使用tcpdump，wireshark等工具对创建的接口进行抓包分析了。</p>
+<p>iOS APP网络分析之rvictl（可以捕捉除了Wifi以外的网络类型） - 碳基体 - 碳基体</p>
+<p>这种流量分析方法，是直接捕捉的iOS设备上的网络流量，因此无论是wifi还是2G/3G等其他网络类型都可以捕捉到，一根USB数据线就搞定了，不需要苛刻的要求PC与iOS设备处于同一个网段，或必须越狱等局限了。</p>
+<p>下面介绍使用方法</p>
+<ol class="arabic">
+<li>
+<p class="first">使用USB数据线将iOS设备连接到MAC上</p>
+</li>
+<li>
+<p class="first">获得iOS设备的UDID，可以使用iTools查看，也可以使用Xcode的Organizer工具查看</p>
+</li>
+<li>
+<p class="first">创建RVI接口:</p>
+<pre class="literal-block">
+$rvictl -s &lt;UDID&gt;
+
+RVI虚拟接口的命令规则可为rvi0，rvi1，。。。,创建后可以使用以下命令查看是否创建成功
+
+$ifconfig rvi0
+</pre>
+</li>
+<li>
+<p class="first">在mac上用抓包工具wireshark或tcpdump等工具抓包分析:</p>
+<pre class="literal-block">
+$sudo tcpdump -i rvi0 -n -vv
+
+iOS APP网络分析之rvictl（可以捕捉除了Wifi以外的网络类型） - 碳基体 - 碳基体
+</pre>
+</li>
+<li>
+<p class="first">分析结束后，移除创建的RVI接口:</p>
+<pre class="literal-block">
+$rvictl -x &lt;UDID&gt;
+</pre>
+</li>
+</ol>
 </div>
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/welcome-to-nikola/" class="u-url">Welcome to Nikola</a></h1>

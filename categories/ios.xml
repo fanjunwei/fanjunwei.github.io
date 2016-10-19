@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>随笔 (ios)</title><link>https://fanjunwei.github.io/</link><description></description><atom:link rel="self" type="application/rss+xml" href="https://fanjunwei.github.io/categories/ios.xml"></atom:link><language>zh_cn</language><lastBuildDate>Wed, 19 Oct 2016 09:35:44 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>抓取iPhone真机封包的方法</title><link>https://fanjunwei.github.io/posts/zhua-qu-iphonezhen-ji-feng-bao-de-fang-fa/</link><dc:creator>范俊伟</dc:creator><description>&lt;div&gt;&lt;p&gt;iOS 5后，apple引入了RVI remote virtual interface的特性，它只需要将iOS设备使用USB数据线连接到mac上，然后使用rvictl工具以iOS设备的UDID为参数在Mac中建立一个虚拟网络接口rvi，就可以在mac设备上使用tcpdump，wireshark等工具对创建的接口进行抓包分析了。&lt;/p&gt;
+&lt;p&gt;iOS APP网络分析之rvictl（可以捕捉除了Wifi以外的网络类型） - 碳基体 - 碳基体&lt;/p&gt;
+&lt;p&gt;这种流量分析方法，是直接捕捉的iOS设备上的网络流量，因此无论是wifi还是2G/3G等其他网络类型都可以捕捉到，一根USB数据线就搞定了，不需要苛刻的要求PC与iOS设备处于同一个网段，或必须越狱等局限了。&lt;/p&gt;
+&lt;p&gt;下面介绍使用方法&lt;/p&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;使用USB数据线将iOS设备连接到MAC上&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;获得iOS设备的UDID，可以使用iTools查看，也可以使用Xcode的Organizer工具查看&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;创建RVI接口:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$rvictl -s &amp;lt;UDID&amp;gt;
+
+RVI虚拟接口的命令规则可为rvi0，rvi1，。。。,创建后可以使用以下命令查看是否创建成功
+
+$ifconfig rvi0
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;在mac上用抓包工具wireshark或tcpdump等工具抓包分析:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$sudo tcpdump -i rvi0 -n -vv
+
+iOS APP网络分析之rvictl（可以捕捉除了Wifi以外的网络类型） - 碳基体 - 碳基体
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;分析结束后，移除创建的RVI接口:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$rvictl -x &amp;lt;UDID&amp;gt;
+&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;</description><category>ios</category><category>抓包</category><guid>https://fanjunwei.github.io/posts/zhua-qu-iphonezhen-ji-feng-bao-de-fang-fa/</guid><pubDate>Sun, 04 Oct 2015 14:55:00 GMT</pubDate></item></channel></rss>

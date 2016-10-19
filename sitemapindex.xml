@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://fanjunwei.github.io/authors/fan-jun-wei.xml</loc>
-  <lastmod>2016-10-19T09:13:00Z</lastmod>
+  <lastmod>2016-10-19T09:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/authors/roberto-alsina.xml</loc>
@@ -23,15 +23,19 @@
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/categories/centos.xml</loc>
-  <lastmod>2016-10-19T09:13:00Z</lastmod>
+  <lastmod>2016-10-19T09:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/categories/centos7.xml</loc>
-  <lastmod>2016-10-19T09:13:00Z</lastmod>
+  <lastmod>2016-10-19T09:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/categories/demo.xml</loc>
   <lastmod>2016-10-19T09:06:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://fanjunwei.github.io/categories/ios.xml</loc>
+  <lastmod>2016-10-19T09:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/categories/nikola.xml</loc>
@@ -43,7 +47,11 @@
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/categories/rabbitmq.xml</loc>
-  <lastmod>2016-10-19T09:13:00Z</lastmod>
+  <lastmod>2016-10-19T09:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://fanjunwei.github.io/categories/zhua-bao.xml</loc>
+  <lastmod>2016-10-19T09:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/galleries/demo/rss.xml</loc>
@@ -55,10 +63,10 @@
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/rss.xml</loc>
-  <lastmod>2016-10-19T09:13:00Z</lastmod>
+  <lastmod>2016-10-19T09:35:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/sitemap.xml</loc>
-  <lastmod>2016-10-19T09:13:00Z</lastmod>
+  <lastmod>2016-10-19T09:35:00Z</lastmod>
  </sitemap>
 </sitemapindex>
