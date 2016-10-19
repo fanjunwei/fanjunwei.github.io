@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>随笔</title><link>https://fanjunwei.github.io/</link><description>This is a demo site for Nikola.</description><atom:link type="application/rss+xml" rel="self" href="https://fanjunwei.github.io/rss.xml"></atom:link><language>zh_cn</language><lastBuildDate>Wed, 19 Oct 2016 09:00:39 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>hello</title><link>https://fanjunwei.github.io/posts/hello/</link><dc:creator>范俊伟</dc:creator><description>&lt;div&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;a&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;b&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;c&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>随笔</title><link>https://fanjunwei.github.io/</link><description>This is a demo site for Nikola.</description><atom:link type="application/rss+xml" rel="self" href="https://fanjunwei.github.io/rss.xml"></atom:link><language>zh_cn</language><lastBuildDate>Wed, 19 Oct 2016 09:19:57 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>centos7安装RabbitMQ启动错误</title><link>https://fanjunwei.github.io/posts/centos7-an-zhuang-rabbitmq-qi-dong-cuo-wu/</link><dc:creator>范俊伟</dc:creator><description>&lt;div&gt;&lt;p&gt;错误信息:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
-COMPILERS = {
-    "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
-    "html": ('.html', '.htm'),
-    # PHP files are rendered the usual way (i.e. with the full templates).
-    # The resulting files have .php extensions, making it possible to run
-    # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
-    # Pandoc detects the input from the source filename
-    # but is disabled by default as it would conflict
-    # with many of the others.
-    # "pandoc": ('.rst', '.md', '.txt'),
-}
+rabbitmq-server.service - RabbitMQ broker
+Loaded: loaded (/usr/lib/systemd/system/rabbitmq-server.service; enabled; vendor preset: disabled)
+Active: failed (Result: exit-code) since 日 2016-08-28 04:36:09 EDT; 20s ago
+Process: 17876 ExecStop=/usr/lib/rabbitmq/bin/rabbitmqctl stop (code=exited, status=0/SUCCESS)
+Process: 17777 ExecStart=/usr/lib/rabbitmq/bin/rabbitmq-server (code=exited, status=1/FAILURE)
+Main PID: 17777 (code=exited, status=1/FAILURE)
+
+8月 28 04:36:09 10.211.55.11 rabbitmqctl[17876]: attempted to contact: [rabbit@10]
+8月 28 04:36:09 10.211.55.11 rabbitmqctl[17876]: rabbit@10:
+8月 28 04:36:09 10.211.55.11 rabbitmqctl[17876]: * unable to connect to epmd (port 4369) on 10: badarg (unknown POSIX error)
+8月 28 04:36:09 10.211.55.11 rabbitmqctl[17876]: current node details:
+8月 28 04:36:09 10.211.55.11 rabbitmqctl[17876]: - node name: 'rabbitmq-cli-77@10'
+8月 28 04:36:09 10.211.55.11 rabbitmqctl[17876]: - home dir: /var/lib/rabbitmq
+8月 28 04:36:09 10.211.55.11 rabbitmqctl[17876]: - cookie hash: 7lHQPF5Hz7+G83gtXMztYA==
+8月 28 04:36:09 10.211.55.11 systemd[1]: Failed to start RabbitMQ broker.
+8月 28 04:36:09 10.211.55.11 systemd[1]: Unit rabbitmq-server.service entered failed state.
+8月 28 04:36:09 10.211.55.11 systemd[1]: rabbitmq-server.service failed.
 &lt;/pre&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;sdf&lt;/p&gt;&lt;/div&gt;</description><guid>https://fanjunwei.github.io/posts/hello/</guid><pubDate>Wed, 19 Oct 2016 02:25:08 GMT</pubDate></item><item><title>Welcome to Nikola</title><link>https://fanjunwei.github.io/posts/welcome-to-nikola/</link><dc:creator>Roberto Alsina</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;p&gt;网上查资料发现是因为rabbitmq无法通过当前主机名解析出ip地址，所有需要修改hosts文件&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+#vi /etc/hosts
+    127.0.0.1 localhost.localdomain   localhost  &amp;lt;此处加上当前主机名&amp;gt;
+&lt;/pre&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;附：&lt;/h2&gt;
+&lt;p&gt;centos7查看hostname和修改hostname的方法&lt;/p&gt;
+&lt;p&gt;查看使用hostname命令&lt;/p&gt;
+&lt;p&gt;修改使用 hostnamectl set-hostname NAME&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>centos</category><category>centos7</category><category>rabbitmq</category><guid>https://fanjunwei.github.io/posts/centos7-an-zhuang-rabbitmq-qi-dong-cuo-wu/</guid><pubDate>Wed, 19 Oct 2016 09:11:53 GMT</pubDate></item><item><title>Welcome to Nikola</title><link>https://fanjunwei.github.io/posts/welcome-to-nikola/</link><dc:creator>Roberto Alsina</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
 &lt;a class="reference external image-reference" href="https://farm1.staticflickr.com/138/352972944_4f9d568680_z.jpg?zz=1"&gt;&lt;img alt="Nikola Tesla Corner by nicwest, on Flickr" class="thumbnail" src="https://farm1.staticflickr.com/138/352972944_4f9d568680.jpg"&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;If you can see this in a web browser, it means you managed to install Nikola,

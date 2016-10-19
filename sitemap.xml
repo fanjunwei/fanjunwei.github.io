@@ -7,142 +7,158 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://fanjunwei.github.io/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/2012/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/2016/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/archive.html</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/authors/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/authors/fan-jun-wei/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/authors/roberto-alsina/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:13:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/blog/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/cat_nikola/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fanjunwei.github.io/categories/centos/</loc>
+  <lastmod>2016-10-19T09:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fanjunwei.github.io/categories/centos7/</loc>
+  <lastmod>2016-10-19T09:13:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/demo/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/nikola/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/python/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fanjunwei.github.io/categories/rabbitmq/</loc>
+  <lastmod>2016-10-19T09:13:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/galleries/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/galleries/demo/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/listings/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/listings/__pycache__/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/listings/hello.py.html</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/about-nikola/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/bootstrap-demo/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/charts/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/creating-a-theme/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/extending/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/handbook/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/internals/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/listings-demo/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/path-handlers/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/quickref/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/quickstart/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/slides-demo/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/social_buttons/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/pages/theming/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fanjunwei.github.io/posts/centos7-an-zhuang-rabbitmq-qi-dong-cuo-wu/</loc>
+  <lastmod>2016-10-19T09:13:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/posts/hello/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/posts/welcome-to-nikola/</loc>
-  <lastmod>2016-10-19T09:00:00Z</lastmod>
+  <lastmod>2016-10-19T09:06:00Z</lastmod>
  </url>
 </urlset>
