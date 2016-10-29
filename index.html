@@ -171,6 +171,35 @@ proxychains4 -q pip install shadowsocks
 </pre>
 </div>
     </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/jie-jue-mou-xie-androidshou-ji-wu-fa-lian-jie-adbde-wen-ti/" class="u-url">解决某些Android手机无法连接adb的问题</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                <a href="authors/fan-jun-wei/">范俊伟</a>
+            </span></p>
+            <p class="dateline"><a href="posts/jie-jue-mou-xie-androidshou-ji-wu-fa-lian-jie-adbde-wen-ti/" rel="bookmark"><time class="published dt-published" datetime="2015-04-21T12:05:00+08:00" title="2015-04-21 12:05">2015-04-21 12:05</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>以mac系统为例</p>
+<p>首先执行:</p>
+<pre class="literal-block">
+system_profiler SPUSBDataType
+</pre>
+<p>查看当前usb设备</p>
+<p>以魅族mx4为例,找到以下内容:</p>
+<pre class="literal-block">
+MX4:
+
+  Product ID: 0x0c02
+  Vendor ID: 0x2a45
+</pre>
+<p>记录下Product ID,然后执行:</p>
+<pre class="literal-block">
+echo 0x0c02 &gt;&gt; ~/.android/adb_usb.ini
+</pre>
+<p>将Product ID加入到~/.android/adb_usb.ini文件中</p>
+</div>
+    </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/welcome-to-nikola/" class="u-url">Welcome to Nikola</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
