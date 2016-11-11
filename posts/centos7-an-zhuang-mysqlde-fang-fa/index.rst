@@ -1,7 +1,7 @@
 .. title: Centos7 安装Mysql的方法
 .. slug: centos7-an-zhuang-mysqlde-fang-fa
 .. date: 2016-11-11 14:08:04 UTC+08:00
-.. tags: 
+.. tags: linux centos centos7 mysql
 .. category: 
 .. link: 
 .. description: 

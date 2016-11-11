@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://fanjunwei.github.io/authors/fan-jun-wei.xml</loc>
-  <lastmod>2016-11-11T06:12:00Z</lastmod>
+  <lastmod>2016-11-11T06:19:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/authors/roberto-alsina.xml</loc>
@@ -42,6 +42,10 @@
   <lastmod>2016-10-19T09:35:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://fanjunwei.github.io/categories/linux-centos-centos7-mysql.xml</loc>
+  <lastmod>2016-11-11T06:19:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://fanjunwei.github.io/categories/mac.xml</loc>
   <lastmod>2016-10-19T09:42:00Z</lastmod>
  </sitemap>
@@ -71,10 +75,10 @@
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/rss.xml</loc>
-  <lastmod>2016-11-11T06:12:00Z</lastmod>
+  <lastmod>2016-11-11T06:19:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fanjunwei.github.io/sitemap.xml</loc>
-  <lastmod>2016-11-11T06:12:00Z</lastmod>
+  <lastmod>2016-11-11T06:19:00Z</lastmod>
  </sitemap>
 </sitemapindex>
