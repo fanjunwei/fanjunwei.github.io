@@ -9,7 +9,7 @@
 <meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://fanjunwei.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/centos7-an-zhuang-rabbitmq-qi-dong-cuo-wu/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/centos7-an-zhuang-mysqlde-fang-fa/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">跳到主内容</a>
@@ -59,7 +59,31 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/centos7-an-zhuang-rabbitmq-qi-dong-cuo-wu/" class="u-url">centos7安装RabbitMQ启动错误</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/centos7-an-zhuang-mysqlde-fang-fa/" class="u-url">Centos7 安装Mysql的方法</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                <a href="authors/fan-jun-wei/">范俊伟</a>
+            </span></p>
+            <p class="dateline"><a href="posts/centos7-an-zhuang-mysqlde-fang-fa/" rel="bookmark"><time class="published dt-published" datetime="2016-11-11T14:08:04+08:00" title="2016-11-11 14:08">2016-11-11 14:08</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Centos的mysql默认换成了MariaDB，如果只是运行:</p>
+<pre class="literal-block">
+yum install mysql
+</pre>
+<p>只会安装MariaDB的客户端，不能启动服务，要执行:</p>
+<pre class="literal-block">
+yum install mariadb-server
+</pre>
+<p>这样才能安装mysql的服务，启动mysql服务:</p>
+<pre class="literal-block">
+systemctl start mariadb
+systemctl enable mariadb #开机启动
+</pre>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/centos7-an-zhuang-rabbitmq-qi-dong-cuo-wu/" class="u-url">centos7安装RabbitMQ启动错误</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                 <a href="authors/fan-jun-wei/">范俊伟</a>
