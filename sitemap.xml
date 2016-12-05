@@ -39,7 +39,7 @@
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/</loc>
-  <lastmod>2016-11-11T06:19:00Z</lastmod>
+  <lastmod>2016-12-05T05:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/blog/</loc>
@@ -74,8 +74,16 @@
   <lastmod>2016-11-11T06:19:00Z</lastmod>
  </url>
  <url>
+  <loc>https://fanjunwei.github.io/categories/linux/</loc>
+  <lastmod>2016-12-05T05:51:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://fanjunwei.github.io/categories/mac/</loc>
   <lastmod>2016-10-19T09:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fanjunwei.github.io/categories/mysql/</loc>
+  <lastmod>2016-12-05T05:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://fanjunwei.github.io/categories/nikola/</loc>
