@@ -1,5 +1,5 @@
-.. title: 修复Mac非正常关机后蓝牙午饭正常激活问题
-.. slug: xiu-fu-macfei-zheng-chang-guan-ji-hou-lan-ya-wu-fan-zheng-chang-ji-huo-wen-ti
+.. title: 修复Mac非正常关机后蓝牙无法正常激活问题
+.. slug: xiu-fu-macfei-zheng-chang-guan-ji-hou-lan-ya-wu-fa-zheng-chang-ji-huo-wen-ti
 .. date: 2016-12-26 09:44:49 UTC+08:00
 .. tags: mac,蓝牙
 .. category: 
