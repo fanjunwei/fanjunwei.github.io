@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>随笔 (蓝牙)</title><link>https://fanjunwei.github.io/</link><description></description><atom:link href="https://fanjunwei.github.io/categories/lan-ya.xml" rel="self" type="application/rss+xml"></atom:link><language>zh_cn</language><lastBuildDate>Mon, 26 Dec 2016 01:51:16 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>修复Mac非正常关机后蓝牙午饭正常激活问题</title><link>https://fanjunwei.github.io/posts/xiu-fu-macfei-zheng-chang-guan-ji-hou-lan-ya-wu-fan-zheng-chang-ji-huo-wen-ti/</link><dc:creator>范俊伟</dc:creator><description>&lt;div&gt;&lt;p&gt;今天来到公司发现蓝牙键盘连接不上，重启Mac后，发现蓝牙干脆显示蓝牙不用，幸亏在论坛找到了相关的解决方法。:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+1、关机；
+2、同时按：shift+control+option+power，此时机器不会启动；
+3、等5秒（自己数）；
+4、按power，然后紧接着同时按option+command+p+r ，等苹果机器响4声开机声音后松手
+5、蓝牙菜单ok。
+&lt;/pre&gt;
+&lt;p&gt;经过网上查询:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Shift-Control-Option-Power 组合键来重置电源管理单元；
+重新启动时按住option+command+p+r，听见4声哗哗声后，放开按键。系统NVRAM重置恢复出厂设置
+&lt;/pre&gt;
+&lt;p&gt;来源于：&lt;a class="reference external" href="http://bbs.feng.com/read-htm-tid-499482.html"&gt;http://bbs.feng.com/read-htm-tid-499482.html&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>mac</category><category>蓝牙</category><guid>https://fanjunwei.github.io/posts/xiu-fu-macfei-zheng-chang-guan-ji-hou-lan-ya-wu-fan-zheng-chang-ji-huo-wen-ti/</guid><pubDate>Mon, 26 Dec 2016 01:44:49 GMT</pubDate></item></channel></rss>
